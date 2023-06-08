@@ -22,6 +22,7 @@ elif 6 <= m <= 8:
 elif 9 <= m <= 11:
     print('Осень')
 
+
 x = 11
 y = 22
 p = 33
@@ -30,4 +31,10 @@ if x >10 and y > 10 and p > 10:
 else:
     print('NO')
 
+sp = [1, 2, 3, 4, 5]
+n = 0
+for i in sp:
+    if i % 2 == 0:
+        n+=1
+print(n)
 

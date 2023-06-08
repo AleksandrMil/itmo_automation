@@ -38,3 +38,7 @@ for i in sp:
         n+=1
 print(n)
 
+years = 3
+months = 8
+days=29*(months+years*12)
+print(days)
